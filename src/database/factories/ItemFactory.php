@@ -18,7 +18,7 @@ class ItemFactory extends Factory
     {
         return [
             'name' => fake()->name(),
-            'creator' => Str::random(9),
+            'creator' => '000000000',
         ];
     }
 }
