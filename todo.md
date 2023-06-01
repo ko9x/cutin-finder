@@ -1,5 +1,6 @@
 ### Current Focus
 
+* Set up Sequel Pro to show this database
 * Set up the database tables
 * Set up the migrations
 * Set up endpoints
@@ -7,6 +8,8 @@
 
 * Continue following the tutorial as necessary
     * https://www.twilio.com/blog/get-started-docker-laravel
+        * Stopped at "Create a controller to handle requests"
+            * Right after the part where we query the database 
 
 ### Done
 * Track this project with GitHub!
