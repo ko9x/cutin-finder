@@ -13,8 +13,8 @@ RUN apt update -y \
             intl \
             opcache \
             pdo \
-            pdo_pgsql \
-            pgsql 
+            # pdo_pgsql \
+            pdo_mysql
 
 WORKDIR /var/www/cutin-finder
 
