@@ -1,9 +1,9 @@
 ### Current Focus
-
-* Set up Sequel Pro to show this database
 * Set up the database tables
-* Set up the migrations
+    * The items table has already been created and I think it should work as is
+    * The break-points table still needs to be created
 * Set up endpoints
+    * we need to be able to hit an endpoint with an object and have all the data get placed in the correct portion of the database
 * Figure out how to hit an endpoint and see the database information in the response object on the front-end
 
 * Continue following the tutorial as necessary
@@ -17,3 +17,4 @@
 * Figure out how to stop tracking postgres-data folder when spinning up and down docker
     * right click on the file you don't to track in source tree and select ignore from the dropdown
         * It gives lots of options but I wanted to to ignore all files inside postgres-data so that is what I selected
+* Set up Sequel Pro to show this database
