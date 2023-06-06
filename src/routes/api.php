@@ -29,7 +29,7 @@ use Illuminate\Support\Facades\Route;
 // });
 
 Route::group(['middleware' => 'cors'], function(){
-	Auth::routes();
+	// Auth::routes();
 
     Route::resource('item', 'ItemController', ['only' => [
         'index', 'store', 'show', 'destroy'
