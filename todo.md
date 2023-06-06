@@ -1,4 +1,7 @@
 ### Current Focus
+* Figure out how to create endpoint paths for storage
+    * I remember Blake would do some command in terminal that showed a list of routes
+        * Maybe we can spin up the noteworthy container and use that command to see the paths Blake created
 * Set up the database tables
     * The items table has already been created and I think it should work as is
     * The break-points table still needs to be created
@@ -8,8 +11,7 @@
 
 * Continue following the tutorial as necessary
     * https://www.twilio.com/blog/get-started-docker-laravel
-        * Stopped at "Create a controller to handle requests"
-            * Right after the part where we query the database 
+        * I already created the ItemController but there will be stuff we reference going forward
 
 ### Done
 * Track this project with GitHub!
